@@ -8,7 +8,7 @@ html {
 }
 
 a {
-    cursor: url(../css/cursor.cur), auto;
+    cursor: url(../css/img/cursor.cur), auto;
 }
 
 @font-face {
@@ -138,7 +138,7 @@ header ul {
     height: 38px;
     background-color: #ffffff;
     border: 1px solid #999999;
-    cursor: url(../css/cursor.cur), auto;
+    cursor: url(../css/img/cursor.cur), auto;
 }
 
 input {
@@ -379,7 +379,7 @@ h1 {
     width: 230rem;
     height: 45rem;
     padding: 12rem 21rem;
-    cursor: url(../css/cursor.cur), auto;
+    cursor: url(../css/img/cursor.cur), auto;
 }
 
 .slider {
@@ -424,9 +424,9 @@ h1 {
     content: url(../css/img/arr-right\ \(1\).png)
 }
 
-figure {
-    cursor: url(../css/cursor.cur), auto;
-}
+/* figure {
+    cursor: url(../css/img/cursor.cur), auto;
+} */
 
 figcaption img {
     width: 270rem;
@@ -544,7 +544,7 @@ figcaption a:hover {
     width: 230rem;
     background-color: #0d0d0d;
     transition: 0.2s;
-    cursor: url(../css/cursor.cur), auto;
+    cursor: url(../css/img/cursor.cur), auto;
 }
 
 .ButtonMac1 {
@@ -552,7 +552,7 @@ figcaption a:hover {
     background-color: #fff;
     padding: 12.4rem 0 12.4rem 20rem;
     transition: 0.2s;
-    cursor: url(../css/cursor.cur), auto;
+    cursor: url(../css/img/cursor.cur), auto;
 }
 
 .ButtonMac:hover {
