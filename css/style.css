@@ -354,11 +354,12 @@ h1 {
 }
 
 .InterestingProductsWrap a {
+    display: block;
+    padding: 14px 5px;
     font-size: 14rem;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #262626;
-    text-align: right;
+    color: rgb(38, 38, 38);
     text-decoration: none;
 }
 
@@ -551,12 +552,17 @@ figcaption a:hover {
     color: #0d0d0d;
 }
 
+.black{
+    color: #0d0d0d;
+}
+
 .MacbookForFree a {
+    display: block;
+    padding: 14px 5px;
     font-size: 14rem;
     letter-spacing: 1px;
-    line-height: 1.7em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -570,7 +576,6 @@ figcaption a:hover {
 .ButtonMac1 {
     width: 210rem;
     background-color: #fff;
-    padding: 15px;
     transition: 0.2s;
     cursor: url(../css/img/cursor.cur), auto;
 }
@@ -585,9 +590,6 @@ figcaption a:hover {
     border-radius: 10rem;
 }
 
-.MacbookButton {
-    padding: 15px;
-}
 
 .ButtonMac1 a:after {
     content: url(../css/img/arr-right.png);
