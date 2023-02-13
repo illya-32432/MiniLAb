@@ -316,7 +316,7 @@ main {
     background-image: url(../css/img/InterestingTabletBG.jpg);
     background-repeat: no-repeat;
     background-color: #c1cfd3;
-    margin: 27rem auto;
+    margin: 50rem auto;
     margin-bottom: 60rem;
 }
 
@@ -362,6 +362,10 @@ h1 {
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+}
+
 .ButtonBuy {
     display: flex;
     width: 230rem;
@@ -392,10 +396,17 @@ h1 {
     cursor: url(../css/img/cursor.cur), auto;
 }
 
+.pipi{
+    font-size: 16rem;
+    line-height: 1.5em;
+    color: #ffffff;
+    margin-bottom: 30rem;
+}
+
 .slider {
     display: block;
     position: relative;
-    height: 169rem;
+    height: 166rem;
 }
 
 .slide-wrap1 {
