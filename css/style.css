@@ -87,6 +87,7 @@ header ul {
     color: #616161;
     padding-bottom: 16rem;
     text-decoration: none;
+    font-family: 'Segoe UI Regular';
 }
 
 .papa{
@@ -147,22 +148,15 @@ header ul {
 
 .search {
     position: relative;
-    width: 264px;
     height: 38px;
     background-color: #ffffff;
-    border: 1px solid #999999;
     cursor: url(../css/img/cursor.cur), auto;
 }
 
 input {
-    border: none;
+    padding: 10px 40px 10px 10px;
     outline: none;
     width: 200px;
-}
-
-.SearchWrap {
-    padding-left: 13rem;
-    padding-top: 12rem;
 }
 
 .search a {
@@ -175,6 +169,7 @@ input {
     text-decoration: none;
     transition: 0.2s;
     right: 0;
+    padding-top: 12px;
 }
 
 .search a::after {
@@ -194,8 +189,8 @@ input {
     transition: 0.2s;
 }
 
-.BuyBasket:hover {
-    transform: scale(0.8);
+.BuyBasket a:hover {
+    opacity: 0.702;
 }
 
 .BuyBasket a:before {
@@ -242,6 +237,7 @@ input {
     line-height: 1.4em;
     color: #262626;
 }
+
 
 .menu ul {
     display: block;
@@ -508,7 +504,6 @@ figcaption a {
 }
 
 figcaption a:hover {
-    color: #000;
     text-decoration: underline;
 }
 
@@ -564,7 +559,7 @@ figcaption a:hover {
 .ButtonMac1 {
     width: 210rem;
     background-color: #fff;
-    padding: 12.4rem 0 12.4rem 20rem;
+    padding: 15px;
     transition: 0.2s;
     cursor: url(../css/img/cursor.cur), auto;
 }
@@ -580,7 +575,7 @@ figcaption a:hover {
 }
 
 .MacbookButton {
-    padding: 10rem 20rem;
+    padding: 15px;
 }
 
 .ButtonMac1 a:after {
@@ -710,4 +705,5 @@ footer a {
 .contacts ul {
     display: flex;
     column-gap: 25rem;
+    list-style: none;
 }
