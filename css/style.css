@@ -312,7 +312,7 @@ main {
 
 .InterestingProducts {
     width: 1170rem;
-    height: 536rem;
+    height: 535rem;
     background-image: url(../css/img/InterestingTabletBG.jpg);
     background-repeat: no-repeat;
     background-color: #c1cfd3;
@@ -355,7 +355,7 @@ h1 {
 
 .InterestingProductsWrap a {
     display: block;
-    padding: 14px 5px;
+    padding: 14px 11px;
     font-size: 14rem;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -558,7 +558,7 @@ figcaption a:hover {
 
 .MacbookForFree a {
     display: block;
-    padding: 14px 5px;
+    padding: 17px 22px;
     font-size: 14rem;
     letter-spacing: 1px;
     text-transform: uppercase;
