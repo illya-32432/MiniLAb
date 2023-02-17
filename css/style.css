@@ -313,12 +313,25 @@ main {
 .InterestingProducts {
     width: 1170rem;
     height: 535rem;
-    background-image: url(../css/img/InterestingTabletBG.jpg);
     background-repeat: no-repeat;
     background-color: #c1cfd3;
     margin: 90rem auto;
     margin-bottom: 60rem;
     position: relative;
+}
+
+.first{
+    display: block;
+    z-index: -1;
+    height: 535px;
+    background-image: url(../css/img/InterestingTabletBG.jpg);
+}
+
+.second{
+    display: none;
+    z-index: -1;
+    height: 535px;
+    background-image: url(../css/img/dryga_fotka.svg);
 }
 
 .radio + label,
@@ -457,6 +470,7 @@ main {
     left: 50%;
     bottom: 10px;
     transform: translateX(50%);
+    z-index: 1;
 }
 
 .InterestingProductsWrap {
