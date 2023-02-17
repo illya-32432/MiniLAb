@@ -318,6 +318,145 @@ main {
     background-color: #c1cfd3;
     margin: 90rem auto;
     margin-bottom: 60rem;
+    position: relative;
+}
+
+.radio + label,
+.check + label {
+    font-size: 14px;
+    color: #1f222c;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.radio,
+.radio-last {
+    display: none;
+}
+
+.radio + label,
+.radio-last +label {
+    position: relative;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.radio + label::before,
+.radio + label::after,
+.radio-last +label::before {
+    content: "";
+    position: absolute;
+}
+
+.radio + label::before {
+    left: 0;
+    top: -1px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.radio:checked + label::before {
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.radio:checked + label::after {
+    top: -1px;
+    left: 0px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.radio-last + label::before {
+    left: 0;
+    top: -1px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    border: 1px solid #e5e5e5;
+}
+
+.radio1-flex {
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.radio1 + label,
+.check + label {
+    font-size: 14px;
+    color: #1f222c;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.radio1 {
+    display: none;
+}
+
+.radio1 + label {
+    position: relative;
+    padding-left: 27px;
+    cursor: pointer;
+}
+
+.radio1 + label::before,
+.radio1 + label::after {
+    content: "";
+    position: absolute;
+}
+
+.radio1 + label::before {
+    left: 0;
+    top: -1px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.radio1:checked + label::before {
+    border: 1px solid #244dd7;
+    background-color: #fff;
+}
+
+.radio1:checked + label::after {
+    top: 3px;
+    left: 4px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1px solid #244dd7;
+    background-color: #244dd7;
+}
+
+.radio1-last + label::before {
+    left: 0;
+    top: -1px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    border: 1px solid #e5e5e5;
+}
+
+.slider {
+    position: relative;
+}
+
+.dot {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(50%);
 }
 
 .InterestingProductsWrap {
@@ -347,7 +486,7 @@ h1 {
     color: #0d0d0d;
     font-weight: 600;
     text-align: center;
-}
+}   
 
 .paragraph {
     width: 413rem;
@@ -355,7 +494,7 @@ h1 {
 
 .InterestingProductsWrap a {
     display: block;
-    padding: 14px 11px;
+    padding: 14px 14px;
     font-size: 14rem;
     letter-spacing: 1px;
     text-transform: uppercase;
